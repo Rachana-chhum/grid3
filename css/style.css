@@ -1,0 +1,114 @@
+.contianer{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+     grid-template-areas:"a a a"
+     "b b b"
+     "c main main-1"
+     "d main main-1"
+     "f  g h";
+     
+}
+.a{
+    grid-area: a;
+    background-color: #eaac8b;
+    height: 30px;
+    text-align: center;
+}
+.b{
+    grid-area: b;
+    background-color: #e56b6f;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c{
+    grid-area: c;
+    background-color: #955361;display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.d{
+    grid-area: d;background-color: #943c51;
+    height: 200px;
+    margin: 5px;display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f{
+    grid-area: f;
+    background-color: #355070;
+    height: 50px;display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.g{
+    grid-area: g;
+    background-color: #293e58;
+    height: 50px;display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.e{
+    grid-area: e;background-color: #794d56;
+    height: 200px;
+    margin: 5px;display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a1{
+    grid-area: a1;
+    background:#4a3c53;
+    margin: 10px;
+}
+.a2{
+    grid-area: a2;background:#4a3c53;
+    margin: 10px;
+    
+}
+.a3{
+    grid-area: a3;background:#4a3c53;margin: 10px;
+}
+.a4{
+    grid-area: a4;background:#4a3c53;margin: 10px;
+}
+.a5{
+    grid-area: a5;background:#4a3c53;margin: 10px;
+}
+.a6{
+    grid-area: a6;background:#4a3c53;margin: 10px;
+}
+.h{
+    grid-area: h;background-color: #1b293b;
+    height: 50px;display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main{
+    
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "a1 a2 a3"
+    "a4 a5 a6";
+    display: grid;
+    background: #c194dd8e;
+    
+    height: 440px;
+}
+.main-1{
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:"d" 
+    "e";
+    display: grid;
+    background: #905c68;
+    
+}
+.footer{
+    grid-template-areas: "f"
+    "g"
+    "h";
+    background-color: red;
+    display: grid;
+    height:  50px;
+
+}
